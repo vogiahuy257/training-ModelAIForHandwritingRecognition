@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+#modelStatus {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+input[type="file"]:hover {
+    border-color: #1a1a1a;
+}
+
+button {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #313131;
+    color: #fff;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#predictionResult {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #007bff;
+}
